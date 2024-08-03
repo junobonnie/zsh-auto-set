@@ -22,9 +22,7 @@ sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/shiftkey-package
 sudo apt update && sudo apt install github-deskto
 ```
 ### Install D2Coding Nerd
-```
-wget https://github.com/junobonnie/D2coding-Nerd-fonts/archive/refs/heads/main.zip
-```
+https://github.com/junobonnie/D2coding-Nerd-fonts/archive/refs/heads/main.zip
 ### Install rust & modern CLI
 ```
 curl https://sh.rustup.rs -sSf | sh -s

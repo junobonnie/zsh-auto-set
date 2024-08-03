@@ -8,13 +8,13 @@ white="\033[0m"
 
 wait_()
 {
-    input="x"
     cecho orange "Automatically starts after $1 seconds."
     echo "Press enter for skip."
     echo ""
     for i in {1..$1}
     do
         cecho purple "$i sec..."
+        input="x"
         read -t 1 input
         if [ "$input" = "" ]; then
             break

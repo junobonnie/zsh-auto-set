@@ -1,0 +1,18 @@
+alias lscom='neofetch && echo -e '\''\033[31m===== CPU =====\033[0m\n'\''&&lscpu&&echo -e '\''\n\033[31m===== HDD =====\033[0m\n'\''&&duf&&echo -e '\''\n\033[31m===== MEMORY =====\033[0m\n'\''&&free -h&&echo -e '\''\n\033[31m===== PROCESS =====\033[0m\n'\''&&ps -h&&echo -e '\''\n\033[31m===== USB =====\033[0m\n'\''&&lsusb'
+
+alias pkgl='history | grep -v grep | grep '\''apt install\|apt-get install\|apt remove\|apt-get remove\|apt purge\|apt-get purge'\'''
+
+alias powerup='sudo apt update && sudo apt -y upgrade && sudo apt -y dist-upgrade && sudo apt -y autoremove && sudo apt -y autoclean'
+
+alias q='tldr -t ocean'
+
+alias du=duf
+
+alias lsos=neofetch
+
+alias cr='clear && clear'
+
+alias chrome=google-chrome
+alias edge=microsoft-edge
+
+alias bbs='luit -encoding eucKR -- telnet bbs.olddos.kr 9000'

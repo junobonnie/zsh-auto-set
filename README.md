@@ -4,7 +4,7 @@ wget https://raw.githubusercontent.com/junobonnie/zsh-auto-set/main/zsh-auto-set
 chmod 777 zsh-auto-set.sh
 ./zsh-auto-set.sh
 ```
-## Other utils
+# Other utils
 ### .zsh_script
 ```
 wget https://raw.githubusercontent.com/junobonnie/zsh-auto-set/main/.zsh_script

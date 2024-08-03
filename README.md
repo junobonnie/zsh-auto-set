@@ -9,6 +9,10 @@ chmod 777 zsh-auto-set.sh
 ```
 wget https://raw.githubusercontent.com/junobonnie/zsh-auto-set/main/.zsh_script
 ```
+### .zsh_aliases
+```
+wget https://raw.githubusercontent.com/junobonnie/zsh-auto-set/main/.zsh_aliases
+```
 ### Install alacritty
 ```
 sudo apt install alacritty

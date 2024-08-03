@@ -12,6 +12,7 @@ wget https://raw.githubusercontent.com/junobonnie/zsh-auto-set/main/.zsh_script
 ### Install alacritty
 ```
 sudo apt install alacritty
+wget https://raw.githubusercontent.com/junobonnie/zsh-auto-set/main/alacritty.toml
 mkdir ~/.config/alacritty
 mv alacritty.toml ~/.config/alacritty
 ```

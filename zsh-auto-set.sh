@@ -67,6 +67,7 @@ install_zsh()
 install_apt_package()
 {
     if which $1 &> /dev/null ; then
+    :
     else
         echo ""
         cecho green "[Install $1]"

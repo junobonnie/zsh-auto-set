@@ -18,9 +18,7 @@ mv alacritty.toml ~/.config/alacritty
 ### Install github-desktop
 ```
 wget -qO - https://apt.packages.shiftkey.dev/gpg.key | gpg --dearmor | sudo tee /usr/share/keyrings/shiftkey-packages.gpg > /dev/null
-
 sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/shiftkey-packages.gpg] https://apt.packages.shiftkey.dev/ubuntu/ any main" > /etc/apt/sources.list.d/shiftkey-packages.list'
-
 sudo apt update && sudo apt install github-deskto
 ```
 ### Install D2Coding Nerd
@@ -41,13 +39,25 @@ sudo apt install neofetch fzf duf
 sudo apt install npm
 sudo npm install -g tldr
 ```
-thorium-broswer
-steam
-vscode
-bottle
-- kakaotalk
-  - cjkfont
-spyder
-discode
-
+### Install miniconda
+https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
+### .zshrc add-on
+```
 wget https://raw.githubusercontent.com/junobonnie/zsh-auto-set/main/add_to_zshrc
+```
+### Others
+thorium-broswer
+
+steam
+
+vscode
+
+bottle
+
+- kakaotalk
+
+  - cjkfont
+
+spyder
+
+discode

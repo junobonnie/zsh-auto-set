@@ -8,7 +8,7 @@ alias q='tldr -t ocean'
 
 alias df=duf
 
-alias storage='du -sh'
+alias storage='du -sh *'
 
 alias git-push='git add . && git commit -m "commit" && git push'
 

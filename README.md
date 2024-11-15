@@ -35,7 +35,7 @@ cargo install lsd bottom viu mcfly
 ```
 ### Other packages
 ```
-sudo apt install neofetch fzf duf
+sudo apt install neofetch fzf duf ncdu
 ```
 ### Install tldr
 ```

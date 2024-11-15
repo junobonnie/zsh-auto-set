@@ -6,7 +6,7 @@ alias powerup='sudo apt update && sudo apt -y upgrade && sudo apt -y dist-upgrad
 
 alias q='tldr -t ocean'
 
-alias du=duf
+alias df=duf
 
 alias lsos=neofetch
 

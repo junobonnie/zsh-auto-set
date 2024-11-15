@@ -8,6 +8,8 @@ alias q='tldr -t ocean'
 
 alias df=duf
 
+alias ncdu='ncdu --color dark'
+
 alias storage='du -sh *'
 
 alias git-push='git add . && git commit -m "commit" && git push'

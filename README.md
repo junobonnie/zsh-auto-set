@@ -37,11 +37,35 @@ cargo install lsd bottom viu mcfly
 ```
 sudo apt install neofetch fzf duf ncdu
 ```
+#### for arm64
+```
+git clone https://github.com/muesli/duf.git
+cd duf
+go build
+mv duf .duf
+cd .cargo/bin
+ln -s ~/.duf/duf .
+```
 ### Install tldr
 ```
 sudo apt install npm
 sudo npm install -g tldr
 ```
+#### for arm64
+```
+sudo snap install tldr
+```
+
+Add this in .zshrc
+```
+export TLDR_COLOR_NAME="cyan bold"                                                                                                                                                                   ─╯
+export TLDR_COLOR_DESCRIPTION="white"
+export TLDR_COLOR_EXAMPLE="green"
+export TLDR_COLOR_COMMAND="blue bold"
+export TLDR_COLOR_PARAMETER="grey bold"
+```
+![image](https://github.com/user-attachments/assets/613a86fd-bf46-4a3f-9eec-7e91193acff8)
+
 ### Install miniconda
 https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
 ### .zshrc add-on

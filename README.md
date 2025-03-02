@@ -64,6 +64,10 @@ export TLDR_COLOR_EXAMPLE="green"
 export TLDR_COLOR_COMMAND="blue bold"
 export TLDR_COLOR_PARAMETER="grey bold"
 ```
+and modified .zsh_aliases
+```
+alias q=tldr
+```
 ![image](https://github.com/user-attachments/assets/613a86fd-bf46-4a3f-9eec-7e91193acff8)
 
 ### Install miniconda

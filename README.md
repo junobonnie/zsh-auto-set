@@ -58,7 +58,7 @@ sudo snap install tldr
 
 Add this in .zshrc
 ```
-export TLDR_COLOR_NAME="cyan bold"                                                                                                                                                                   ─╯
+export TLDR_COLOR_NAME="cyan bold"
 export TLDR_COLOR_DESCRIPTION="white"
 export TLDR_COLOR_EXAMPLE="green"
 export TLDR_COLOR_COMMAND="blue bold"
